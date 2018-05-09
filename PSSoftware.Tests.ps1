@@ -23,6 +23,24 @@ InModuleScope PSSoftware {
 	
 }
 
+describe 'Test-InstalledSoftware' {
+	it 'should return Bool type' {
+		Test-InstalledSoftware -Name 'Microsoft*' | Should Beoftype [Bool]
+	}
+	it 'should return False for obvious non-installed software' {
+		Test-InstalledSoftware -Name 'ASLKDJFWEtrlwdf' | should befalse
+	}
+}
+
+describe 'Get-InstalledSoftware' {
+	it 'should return PSObject type' {
+		Get-InstalledSoftware -name 'Microsoft*' | should beoftype [System.Management.Automation.PSObject]
+	}
+	it 'should return null or empty for garbage entry' {
+		Get-InstalledSoftware -Name 'ASLKDJFWEtrlwdf' | should benullorempty
+	}
+}
+
 describe 'New-TempFile' {
 	$file = New-TempFile
 	it 'should return FileInfo type' {
