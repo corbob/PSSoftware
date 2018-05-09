@@ -41,6 +41,24 @@ describe 'Get-InstalledSoftware' {
 	}
 }
 
+describe 'Install-Software' {
+	it 'should be tested...' {
+		throw "But it's not tested right now FeelsBadMan"
+	}
+}
+
+describe 'Remove-Software' {
+	it 'should be tested...' {
+		throw "But it's not tested right now FeelsBadMan"
+	}
+}
+
+describe 'Import-Certificate' {
+	it 'should be tested...' {
+		throw "But it's not tested right now FeelsBadMan"
+	}
+}
+
 describe 'New-TempFile' {
 	$file = New-TempFile
 	it 'should return FileInfo type' {
