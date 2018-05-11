@@ -43,7 +43,7 @@ Once it's in one of those paths you can either import it manually by ``Import-Mo
 In the repo you'll find the following files.
 
 | File                       | Provides                                       |
-|:---------------------------|------------------------------------------------|
+|----------------------------|------------------------------------------------|
 | PSSoftware.psm1            | The PowerShell module                          |
 | SofwareInstallManager.psd1 | The PowerShell module manifest.                |
 | README.md                  | Details for quickly understanding the project. |
@@ -55,17 +55,17 @@ The PSSoftware module is made up of four rough categories of functions with subc
 ### Install Functions
 |Function Name   | PSv1 | PSv2 | PSv3 | PSv4 | PSv5     | PSv6  |
 |:---------------|------|------|------|------|----------|-------|
-|Install-Software| No   | No   | Yes  | Yes  | Untested | Untested |
+|Install-Software| No   | No   | Untested  | Untested  | Untested | Untested |
 
 ### Uninstall Functions
 |Function Name   | PSv1 | PSv2 | PSv3 | PSv4 | PSv5     | PSv6  |
 |:---------------|------|------|------|------|----------|-------|
-|Uninstall-Software| No | No | Yes | Yes | Untested | Untested |
-|Uninstall-ViaMsiZap| No | No | Yes | Yes | Untested | Untested |
-|Uninstall-InstallshieldPackage| No | No | Yes | Yes | Untested | Untested |
-|Uninstall-WindowsInstallerPackage| No | No | Yes | Yes | Untested | Untested |
-|Uninstall-WindowsInstallerPackageWithMsiModule| No | No | Yes | Yes | Untested | Untested |
-|Uninstall-WindowsInstallerPackageWithMsiExec| No | No | Yes | Yes | Untested | Untested |
+|Uninstall-Software| No | No | Untested | Untested | Untested | Untested |
+|Uninstall-ViaMsiZap| No | No | Untested | Untested | Untested | Untested |
+|Uninstall-InstallshieldPackage| No | No | Untested | Untested | Untested | Untested |
+|Uninstall-WindowsInstallerPackage| No | No | Untested | Untested | Untested | Untested |
+|Uninstall-WindowsInstallerPackageWithMsiModule| No | No | Untested | Untested | Untested | Untested |
+|Uninstall-WindowsInstallerPackageWithMsiExec| No | No | Untested | Untested | Untested | Untested |
 
 ### Detection Functions
 
@@ -75,10 +75,10 @@ The PSSoftware module is made up of four rough categories of functions with subc
 |Test-InstalledSoftware| No | No | Yes | Yes | Yes | Yes |
 |Compare-FilePath| No | No | Yes | Yes | Yes | Yes |
 |Compare-File| No | No | Yes | Yes | Yes | Yes |
-|Compare-FolderPath| No | No | Yes | Yes | Untested | Untested |
-|Compare-RegistryFileToRegistry| No | No | Yes | Yes | Untested | Untested |
-|Get-FileVersion| No | No | Yes | Yes | Untested | Untested |
-|Get-MyFileHash| No | No | Yes | Yes | Untested | Untested |
+|Compare-FolderPath| No | No | Untested | Untested | Untested | Untested |
+|Compare-RegistryFileToRegistry| No | No | Untested | Untested | Untested | Untested |
+|Get-FileVersion| No | No | Untested | Untested | Untested | Untested |
+|Get-MyFileHash| No | No | Untested | Untested | Untested | Untested |
 
 ### Configuration Functions
 
@@ -86,59 +86,59 @@ The PSSoftware module is made up of four rough categories of functions with subc
 
 |Function Name   | PSv1 | PSv2 | PSv3 | PSv4 | PSv5     | PSv6  |
 |:---------------|------|------|------|------|----------|-------|
-|Get-RegistryValue| No | No | Yes | Yes | Untested | Untested |
-|Get-RegistryValueForAllUsers| No | No | Yes | Yes | Untested | Untested |
-|Import-RegistryFile| No | No | Yes | Yes | Untested | Untested |
-|Set-RegistryValueForAllUsers| No | No | Yes | Yes | Untested | Untested |
-|Register-File| No | No | Yes | Yes | Untested | Untested |
+|Get-RegistryValue| No | No | Untested | Untested | Untested | Untested |
+|Get-RegistryValueForAllUsers| No | No | Untested | Untested | Untested | Untested |
+|Import-RegistryFile| No | No | Untested | Untested | Untested | Untested |
+|Set-RegistryValueForAllUsers| No | No | Untested | Untested | Untested | Untested |
+|Register-File| No | No | Untested | Untested | Untested | Untested |
 
 #### FileSystem
 
 |Function Name   | PSv1 | PSv2 | PSv3 | PSv4 | PSv5     | PSv6  |
 |:---------------|------|------|------|------|----------|-------|
-|Copy-FileWithHashCheck| No | No | Yes | Yes | Untested | Untested |
-|Find-InTextFile| No | No | Yes | Yes | Untested | Untested |
-|Set-MyFileSystemAcl| No | No | Yes | Yes | Untested | Untested |
+|Copy-FileWithHashCheck| No | No | Untested | Untested | Untested | Untested |
+|Find-InTextFile| No | No | Untested | Untested | Untested | Untested |
+|Set-MyFileSystemAcl| No | No | Untested | Untested | Untested | Untested |
 |New-TempFile| No | No | Yes | Yes | Yes | Yes |
 
 #### Shortcuts
 
 |Function Name   | PSv1 | PSv2 | PSv3 | PSv4 | PSv5     | PSv6  |
 |:---------------|------|------|------|------|----------|-------|
-|Get-Shortcut| No | No | Yes | Yes | Untested | Untested |
-|New-Shortcut| No | No | Yes | Yes | Untested | Untested |
+|Get-Shortcut| No | No | Untested | Untested | Untested | Untested |
+|New-Shortcut| No | No | Untested | Untested | Untested | Untested |
 
 #### Processes
 
 |Function Name   | PSv1 | PSv2 | PSv3 | PSv4 | PSv5     | PSv6  |
 |:---------------|------|------|------|------|----------|-------|
-|Test-Process| No | No | Yes | Yes | Untested | Untested |
-|Get-ChildProcess| No | No | Yes | Yes | Untested | Untested |
-|Stop-MyProcess| No | No | Yes | Yes | Untested | Untested |
-|Wait-MyProcess| No | No | Yes | Yes | Untested | Untested |
-|Wait-WindowsInstaller| No | No | Yes | Yes | Untested | Untested |
+|Test-Process| No | No | Untested | Untested | Untested | Untested |
+|Get-ChildProcess| No | No | Untested | Untested | Untested | Untested |
+|Stop-MyProcess| No | No | Untested | Untested | Untested | Untested |
+|Wait-MyProcess| No | No | Untested | Untested | Untested | Untested |
+|Wait-WindowsInstaller| No | No | Untested | Untested | Untested | Untested |
 
 #### Services
 
 |Function Name   | PSv1 | PSv2 | PSv3 | PSv4 | PSv5     | PSv6  |
 |:---------------|------|------|------|------|----------|-------|
-|Remove-MyService| No | No | Yes | Yes | Untested | Untested |
+|Remove-MyService| No | No | Untested | Untested | Untested | Untested |
 
 #### Certificates
 
 |Function Name   | PSv1 | PSv2 | PSv3 | PSv4 | PSv5     | PSv6  |
 |:---------------|------|------|------|------|----------|-------|
-|Import-Certificate| No | No | Yes | Yes | Untested | Untested |
+|Import-Certificate| No | No | Untested | Untested | Untested | Untested |
 
 #### User Profiles
 
 |Function Name   | PSv1 | PSv2 | PSv3 | PSv4 | PSv5     | PSv6  |
 |:---------------|------|------|------|------|----------|-------|
-|Get-AllUsersDesktopFolderPath| No | No | Yes | Yes | Untested | Untested |
-|Get-AllUsersProfileFolderPath| No | No | Yes | Yes | Untested | Untested |
-|Get-AllUsersStartMenuFolderPath| No | No | Yes | Yes | Untested | Untested |
-|Get-UserProfile| No | No | Yes | Yes | Untested | Untested |
-|Get-RootUserProfileFolderPath| No | No | Yes | Yes | Untested | Untested |
-|Get-UserProfilePath| No | No | Yes | Yes | Untested | Untested |
-|Remove-ProfileItem| No | No | Yes | Yes | Untested | Untested |
-|Set-AllUserStartupAction| No | No | Yes | Yes | Untested | Untested |
+|Get-AllUsersDesktopFolderPath| No | No | Untested | Untested | Untested | Untested |
+|Get-AllUsersProfileFolderPath| No | No | Untested | Untested | Untested | Untested |
+|Get-AllUsersStartMenuFolderPath| No | No | Untested | Untested | Untested | Untested |
+|Get-UserProfile| No | No | Untested | Untested | Untested | Untested |
+|Get-RootUserProfileFolderPath| No | No | Untested | Untested | Untested | Untested |
+|Get-UserProfilePath| No | No | Untested | Untested | Untested | Untested |
+|Remove-ProfileItem| No | No | Untested | Untested | Untested | Untested |
+|Set-AllUserStartupAction| No | No | Untested | Untested | Untested | Untested |
