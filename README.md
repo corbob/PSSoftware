@@ -69,60 +69,76 @@ The PSSoftware module is made up of four rough categories of functions with subc
 
 ### Detection Functions
 
-1. Get-InstalledSoftware
-2. Test-InstalledSoftware
-3. Compare-FilePath
-4. Compare-FolderPath
-5. Compare-RegistryFileToRegistry
-6. Get-FileVersion
-7. Get-MyFileHash
+|Function Name   | PSv1 | PSv2 | PSv3 | PSv4 | PSv5     | PSv6  |
+|:---------------|------|------|------|------|----------|-------|
+|Get-InstalledSoftware| No | No | Yes | Yes | Untested | Untested |
+|Test-InstalledSoftware| No | No | Yes | Yes | Untested | Untested |
+|Compare-FilePath| No | No | Yes | Yes | Untested | Untested |
+|Compare-File| No | No | Yes | Yes | Untested | Untested |
+|Compare-FolderPath| No | No | Yes | Yes | Untested | Untested |
+|Compare-RegistryFileToRegistry| No | No | Yes | Yes | Untested | Untested |
+|Get-FileVersion| No | No | Yes | Yes | Untested | Untested |
+|Get-MyFileHash| No | No | Yes | Yes | Untested | Untested |
 
 ### Configuration Functions
 
 #### Registry
 
-1. Get-RegistryValue
-2. Get-RegistryValueForAllUsers
-3. Import-RegistryFile
-4. Set-RegistryValueForAllUsers
-5. Register-File
+|Function Name   | PSv1 | PSv2 | PSv3 | PSv4 | PSv5     | PSv6  |
+|:---------------|------|------|------|------|----------|-------|
+|Get-RegistryValue| No | No | Yes | Yes | Untested | Untested |
+|Get-RegistryValueForAllUsers| No | No | Yes | Yes | Untested | Untested |
+|Import-RegistryFile| No | No | Yes | Yes | Untested | Untested |
+|Set-RegistryValueForAllUsers| No | No | Yes | Yes | Untested | Untested |
+|Register-File| No | No | Yes | Yes | Untested | Untested |
 
 #### FileSystem
 
-1. Copy-FileWithHashCheck
-2. Find-InTextFile
-3. Set-MyFileSystemAcl
+|Function Name   | PSv1 | PSv2 | PSv3 | PSv4 | PSv5     | PSv6  |
+|:---------------|------|------|------|------|----------|-------|
+|Copy-FileWithHashCheck| No | No | Yes | Yes | Untested | Untested |
+|Find-InTextFile| No | No | Yes | Yes | Untested | Untested |
+|Set-MyFileSystemAcl| No | No | Yes | Yes | Untested | Untested |
+|New-TempFile| No | No | Yes | Yes | Untested | Untested |
 
 #### Shortcuts
 
-1. Get-Shortcut
-2. New-Shortcut
+|Function Name   | PSv1 | PSv2 | PSv3 | PSv4 | PSv5     | PSv6  |
+|:---------------|------|------|------|------|----------|-------|
+|Get-Shortcut| No | No | Yes | Yes | Untested | Untested |
+|New-Shortcut| No | No | Yes | Yes | Untested | Untested |
 
 #### Processes
 
-1. Test-Process
-2. Get-ChildProcess
-3. Stop-MyProcess
-4. Wait-MyProcess
-5. Wait-WindowsInstaller
+|Function Name   | PSv1 | PSv2 | PSv3 | PSv4 | PSv5     | PSv6  |
+|:---------------|------|------|------|------|----------|-------|
+|Test-Process| No | No | Yes | Yes | Untested | Untested |
+|Get-ChildProcess| No | No | Yes | Yes | Untested | Untested |
+|Stop-MyProcess| No | No | Yes | Yes | Untested | Untested |
+|Wait-MyProcess| No | No | Yes | Yes | Untested | Untested |
+|Wait-WindowsInstaller| No | No | Yes | Yes | Untested | Untested |
 
 #### Services
 
-1. Remove-MyService
+|Function Name   | PSv1 | PSv2 | PSv3 | PSv4 | PSv5     | PSv6  |
+|:---------------|------|------|------|------|----------|-------|
+|Remove-MyService| No | No | Yes | Yes | Untested | Untested |
 
 #### Certificates
 
-1. Import-Certificate
+|Function Name   | PSv1 | PSv2 | PSv3 | PSv4 | PSv5     | PSv6  |
+|:---------------|------|------|------|------|----------|-------|
+|Import-Certificate| No | No | Yes | Yes | Untested | Untested |
 
 #### User Profiles
 
-1. Get-AllUsersDesktopFolderPath
-2. Get-AllUsersProfileFolderPath
-3. Get-AllUsersStartMenuFolderPath
-4. Get-UserProfile
-5. Get-RootUserProfileFolderPath
-6. Get-UserProfilePath
-7. Remove-ProfileItem
-8. Set-AllUserStartupAction
-
-
+|Function Name   | PSv1 | PSv2 | PSv3 | PSv4 | PSv5     | PSv6  |
+|:---------------|------|------|------|------|----------|-------|
+|Get-AllUsersDesktopFolderPath| No | No | Yes | Yes | Untested | Untested |
+|Get-AllUsersProfileFolderPath| No | No | Yes | Yes | Untested | Untested |
+|Get-AllUsersStartMenuFolderPath| No | No | Yes | Yes | Untested | Untested |
+|Get-UserProfile| No | No | Yes | Yes | Untested | Untested |
+|Get-RootUserProfileFolderPath| No | No | Yes | Yes | Untested | Untested |
+|Get-UserProfilePath| No | No | Yes | Yes | Untested | Untested |
+|Remove-ProfileItem| No | No | Yes | Yes | Untested | Untested |
+|Set-AllUserStartupAction| No | No | Yes | Yes | Untested | Untested |
