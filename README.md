@@ -73,12 +73,12 @@ The PSSoftware module is made up of four rough categories of functions with subc
 |:---------------|------|------|------|------|----------|-------|
 |Get-InstalledSoftware| No | No | Yes | Yes | Yes | Yes |
 |Test-InstalledSoftware| No | No | Yes | Yes | Yes | Yes |
-|Compare-FilePath| No | No | Yes | Yes | Yes | Yes |
-|Compare-File| No | No | Yes | Yes | Yes | Yes |
-|Compare-FolderPath| No | No | Untested | Untested | Untested | Untested |
+|Compare-FilePath| No | No | Yes | Yes | Yes | No |
+|Compare-File| No | No | Yes | Yes | Yes | No |
+|Compare-FolderPath| No | No | Yes | Yes | Yes | No |
 |Compare-RegistryFileToRegistry| No | No | Untested | Untested | Untested | Untested |
-|Get-FileVersion| No | No | Untested | Untested | Untested | Untested |
-|Get-MyFileHash| No | No | Untested | Untested | Untested | Untested |
+|Get-FileVersion| No | No | Yes | Yes | Yes | Yes |
+|Get-MyFileHash| No | No | Yes | Yes | Yes | No |
 
 ### Configuration Functions
 
@@ -86,10 +86,10 @@ The PSSoftware module is made up of four rough categories of functions with subc
 
 |Function Name   | PSv1 | PSv2 | PSv3 | PSv4 | PSv5     | PSv6  |
 |:---------------|------|------|------|------|----------|-------|
-|Get-RegistryValue| No | No | Untested | Untested | Untested | Untested |
-|Get-RegistryValueForAllUsers| No | No | Untested | Untested | Untested | Untested |
+|Get-RegistryValue| No | No | Yes | Yes | Yes | Yes |
+|Get-AllUSersRegistryValue| No | No | Untested | Untested | Untested | Untested |
 |Import-RegistryFile| No | No | Untested | Untested | Untested | Untested |
-|Set-RegistryValueForAllUsers| No | No | Untested | Untested | Untested | Untested |
+|Set-AllUsersRegistryValue| No | No | Untested | Untested | Untested | Untested |
 |Register-File| No | No | Untested | Untested | Untested | Untested |
 
 #### FileSystem
@@ -105,7 +105,7 @@ The PSSoftware module is made up of four rough categories of functions with subc
 
 |Function Name   | PSv1 | PSv2 | PSv3 | PSv4 | PSv5     | PSv6  |
 |:---------------|------|------|------|------|----------|-------|
-|Get-Shortcut| No | No | Untested | Untested | Untested | Untested |
+|Get-Shortcut| No | No | Yes | Yes | Yes | Yes |
 |New-Shortcut| No | No | Untested | Untested | Untested | Untested |
 
 #### Processes
