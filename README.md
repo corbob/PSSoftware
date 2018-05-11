@@ -20,9 +20,9 @@ This is what PSSoftware is all about. Removing the complexities of software mana
 
 ## Version Support
 
-| PSv1 | PSv2 | PSv3 | PSv4 | PSv5     | PSv6  |
-|------|------|------|------|----------|-------|
-| No   | No   | Yes  | Yes  | Untested | No    |
+| PSv1 | PSv2 | PSv3 | PSv4 | PSv5     | PSv6     |
+|------|------|------|------|----------|----------|
+| No   | No   | Yes  | Yes  | Untested | Untested |
 
 ## Getting Started
 
@@ -43,7 +43,7 @@ Once it's in one of those paths you can either import it manually by ``Import-Mo
 In the repo you'll find the following files.
 
 | File                       | Provides                                       |
-|----------------------------|------------------------------------------------|
+|:---------------------------|------------------------------------------------|
 | PSSoftware.psm1            | The PowerShell module                          |
 | SofwareInstallManager.psd1 | The PowerShell module manifest.                |
 | README.md                  | Details for quickly understanding the project. |
@@ -71,10 +71,10 @@ The PSSoftware module is made up of four rough categories of functions with subc
 
 |Function Name   | PSv1 | PSv2 | PSv3 | PSv4 | PSv5     | PSv6  |
 |:---------------|------|------|------|------|----------|-------|
-|Get-InstalledSoftware| No | No | Yes | Yes | Untested | Untested |
-|Test-InstalledSoftware| No | No | Yes | Yes | Untested | Untested |
-|Compare-FilePath| No | No | Yes | Yes | Untested | Untested |
-|Compare-File| No | No | Yes | Yes | Untested | Untested |
+|Get-InstalledSoftware| No | No | Yes | Yes | Yes | Yes |
+|Test-InstalledSoftware| No | No | Yes | Yes | Yes | Yes |
+|Compare-FilePath| No | No | Yes | Yes | Yes | Yes |
+|Compare-File| No | No | Yes | Yes | Yes | Yes |
 |Compare-FolderPath| No | No | Yes | Yes | Untested | Untested |
 |Compare-RegistryFileToRegistry| No | No | Yes | Yes | Untested | Untested |
 |Get-FileVersion| No | No | Yes | Yes | Untested | Untested |
@@ -99,7 +99,7 @@ The PSSoftware module is made up of four rough categories of functions with subc
 |Copy-FileWithHashCheck| No | No | Yes | Yes | Untested | Untested |
 |Find-InTextFile| No | No | Yes | Yes | Untested | Untested |
 |Set-MyFileSystemAcl| No | No | Yes | Yes | Untested | Untested |
-|New-TempFile| No | No | Yes | Yes | Untested | Untested |
+|New-TempFile| No | No | Yes | Yes | Yes | Yes |
 
 #### Shortcuts
 
