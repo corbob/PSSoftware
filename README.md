@@ -53,16 +53,19 @@ In the repo you'll find the following files.
 The PSSoftware module is made up of four rough categories of functions with subcategories in each major category.
 
 ### Install Functions
-1. Install-Software
+|Function Name   | PSv1 | PSv2 | PSv3 | PSv4 | PSv5     | PSv6  |
+|:---------------|------|------|------|------|----------|-------|
+|Install-Software| No   | No   | Yes  | Yes  | Untested | Untested |
 
 ### Uninstall Functions
-
-1. Uninstall-Software
-2. Uninstall-ViaMsiZap
-3. Uninstall-InstallshieldPackage
-4. Uninstall-WindowsInstallerPackage
-5. Uninstall-WindowsInstallerPackageWithMsiModule
-6. Uninstall-WindowsInstallerPackageWithMsiExec
+|Function Name   | PSv1 | PSv2 | PSv3 | PSv4 | PSv5     | PSv6  |
+|:---------------|------|------|------|------|----------|-------|
+|Uninstall-Software| No | No | Yes | Yes | Untested | Untested |
+|Uninstall-ViaMsiZap| No | No | Yes | Yes | Untested | Untested |
+|Uninstall-InstallshieldPackage| No | No | Yes | Yes | Untested | Untested |
+|Uninstall-WindowsInstallerPackage| No | No | Yes | Yes | Untested | Untested |
+|Uninstall-WindowsInstallerPackageWithMsiModule| No | No | Yes | Yes | Untested | Untested |
+|Uninstall-WindowsInstallerPackageWithMsiExec| No | No | Yes | Yes | Untested | Untested |
 
 ### Detection Functions
 
