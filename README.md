@@ -78,7 +78,7 @@ The PSSoftware module is made up of four rough categories of functions with subc
 |Compare-FolderPath| No | No | Yes | Yes | Yes | No |
 |Compare-RegistryFileToRegistry| No | No | Untested | Untested | Untested | Untested |
 |Get-FileVersion| No | No | Yes | Yes | Yes | Yes |
-|Get-MyFileHash| No | No | Yes | Yes | Yes | No |
+|Get-MyFileHash| No | No | Yes | Yes | Yes | Yes |
 
 ### Configuration Functions
 
