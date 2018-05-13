@@ -168,9 +168,6 @@ Get-SystemTempFolderPath | No | No | Untested | Untested | Untested | Untested |
 |Get-InstallerType | No | No | Untested | Untested | Untested | Untested |
 |Get-InstallshieldInstallString | No | No | Untested | Untested | Untested | Untested |
 |Get-MsiexecInstallString | No | No | Untested | Untested | Untested | Untested |
-|GetRegExePath | No | No | Untested | Untested | Untested | Untested |
-|LoadRegistryHive | No | No | Untested | Untested | Untested | Untested |
 |Remove-RegistryKey | No | No | Untested | Untested | Untested | Untested |
 |Remove-Software | No | No | Untested | Untested | Untested | Untested |
 |Stop-SoftwareProcess | No | No | Untested | Untested | Untested | Untested |
-|UnloadRegistryHive | No | No | Untested | Untested | Untested | Untested |
