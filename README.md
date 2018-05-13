@@ -79,6 +79,10 @@ The PSSoftware module is made up of four rough categories of functions with subc
 |Compare-RegistryFileToRegistry| No | No | Untested | Untested | Untested | Untested |
 |Get-FileVersion| No | No | Yes | Yes | Yes | Yes |
 |Get-MyFileHash| No | No | Yes | Yes | Yes | Yes |
+|Get-Architecture  | No | No | Untested | Untested | Untested | Untested |
+|Get-DriveFreeSpace | No | No | Untested | Untested | Untested | Untested |
+|Get-OperatingSystem | No | No | Untested | Untested | Untested | Untested |
+Get-SystemTempFolderPath | No | No | Untested | Untested | Untested | Untested |
 
 ### Configuration Functions
 
@@ -87,6 +91,7 @@ The PSSoftware module is made up of four rough categories of functions with subc
 |Function Name   | PSv1 | PSv2 | PSv3 | PSv4 | PSv5     | PSv6  |
 |:---------------|------|------|------|------|----------|-------|
 |Get-RegistryValue| No | No | Yes | Yes | Yes | Yes |
+|Get-AllUsersRegistryKey  | No | No | Untested | Untested | Untested | Untested |
 |Get-AllUSersRegistryValue| No | No | Untested | Untested | Untested | Untested |
 |Import-RegistryFile| No | No | Untested | Untested | Untested | Untested |
 |Set-AllUsersRegistryValue| No | No | Untested | Untested | Untested | Untested |
@@ -94,19 +99,19 @@ The PSSoftware module is made up of four rough categories of functions with subc
 
 #### FileSystem
 
-|Function Name   | PSv1 | PSv2 | PSv3 | PSv4 | PSv5     | PSv6  |
-|:---------------|------|------|------|------|----------|-------|
-|Copy-FileWithHashCheck| No | No | Untested | Untested | Untested | Untested |
-|Find-InTextFile| No | No | Untested | Untested | Untested | Untested |
-|Set-MyFileSystemAcl| No | No | Untested | Untested | Untested | Untested |
-|New-TempFile| No | No | Yes | Yes | Yes | Yes |
+|Function Name          | PSv1 | PSv2 | PSv3 | PSv4 | PSv5     | PSv6  |
+|:----------------------|------|------|------|------|----------|-------|
+|Copy-FileWithHashCheck | No   | No   | Untested | Untested | Untested | Untested |
+|Find-InTextFile        | No   | No   | Untested | Untested | Untested | Untested |
+|Set-MyFileSystemAcl    | No   | No   | Untested | Untested | Untested | Untested |
+|New-TempFile           | No   | No   | Yes | Yes | Yes | Yes |
 
 #### Shortcuts
 
 |Function Name   | PSv1 | PSv2 | PSv3 | PSv4 | PSv5     | PSv6  |
 |:---------------|------|------|------|------|----------|-------|
-|Get-Shortcut| No | No | Yes | Yes | Yes | Yes |
-|New-Shortcut| No | No | Untested | Untested | Untested | Untested |
+|New-Shortcut    | No   | No   | Yes  | Yes  | Yes      | Yes   |
+|Get-Shortcut    | No   | No   | Yes  | Yes  | Yes      | Yes   |
 
 #### Processes
 
@@ -142,3 +147,30 @@ The PSSoftware module is made up of four rough categories of functions with subc
 |Get-UserProfilePath| No | No | Untested | Untested | Untested | Untested |
 |Remove-ProfileItem| No | No | Untested | Untested | Untested | Untested |
 |Set-AllUserStartupAction| No | No | Untested | Untested | Untested | Untested |
+|Get-LoggedOnUserSID | No | No | Untested | Untested | Untested | Untested |
+
+### Utility Functions
+
+#### Logging
+|Function Name   | PSv1 | PSv2 | PSv3 | PSv4 | PSv5     | PSv6  |
+|:---------------|------|------|------|------|----------|-------|
+|Start-Log | No | No | Untested | Untested | Untested | Untested |
+|Write-Log | No | No | Untested | Untested | Untested | Untested |
+
+#### General
+|Function Name   | PSv1 | PSv2 | PSv3 | PSv4 | PSv5     | PSv6  |
+|:---------------|------|------|------|------|----------|-------|
+|Convert-CompressedGuidToGuid | No | No | Untested | Untested | Untested | Untested |
+|Convert-GuidToCompressedGuid | No | No | Untested | Untested | Untested | Untested |
+|Convert-ToUncPath | No | No | Untested | Untested | Untested | Untested |
+|Get-32BitProgramFilesPath | No | No | Untested | Untested | Untested | Untested |
+|Get-32BitRegistrySoftwarePath  | No | No | Untested | Untested | Untested | Untested |
+|Get-InstallerType | No | No | Untested | Untested | Untested | Untested |
+|Get-InstallshieldInstallString | No | No | Untested | Untested | Untested | Untested |
+|Get-MsiexecInstallString | No | No | Untested | Untested | Untested | Untested |
+|GetRegExePath | No | No | Untested | Untested | Untested | Untested |
+|LoadRegistryHive | No | No | Untested | Untested | Untested | Untested |
+|Remove-RegistryKey | No | No | Untested | Untested | Untested | Untested |
+|Remove-Software | No | No | Untested | Untested | Untested | Untested |
+|Stop-SoftwareProcess | No | No | Untested | Untested | Untested | Untested |
+|UnloadRegistryHive | No | No | Untested | Untested | Untested | Untested |
